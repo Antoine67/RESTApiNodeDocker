@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"outDir": "dist/",
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,                         
+		"sourceMap": true, 
+		"target": "es2020",
+		"module": "commonjs",
+		"lib": ["es2020"],
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.test.ts"]
+}
